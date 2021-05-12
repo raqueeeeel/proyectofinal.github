@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>  
+            body {background-color: rgb(146, 223, 212); padding: 10px; font-family: 'Oswald', sans-serif; display: flex; flex-direction: column;}
+       </style>
+        <title>Formulario </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script>
+            alert ("Realice el Formulario");
+            document.write ("Sobre cosmetica");
+        </script>
+        <h2>Formulario de Inscripción</h2>
+        <h3>Datos personales</h3>
+        <form class="form-register">
+            <fieldset>
+                <legend class="otro"> <b>DATOS PERSONALES:</b> </legend>
+                <br>
+                <label>Nombre <input type="text" id="fname" name="fname" placeholder="Introduzca su nombre" ><br></label>
+                <br> 
+                <label for="lname">Apellidos <input class="controls" type="text" id="lname" name="lname" placeholder="Introduzca su apellido"> <br> </label>
+                <br>
+                <label for="pwd">Introduzca su Password: <input class="controls" type="password" id="pwd" name="pwd" placeholder="Introduzca su password"> <br> </label>
+                <br>
+                <label>Introduzca su correo electronico:<input class="controls" type="email" id="email" name="email" placeholder="Escribe aqui"> <br> </label>
+                <br>
+                <label for="number">numero de telefono <input class="controls" type="number" id="number" placeholder="introduza su numero de contacto"> <br> </label>
+           </fieldset>
+            <br>  
+            <p>Por favor su sexo:</p>
+        <input class="controls" type="radio" id="male" name="genero" value="Hombre">
+        <label for="male">Hombre</label><br>
+        <input class="controls" type="radio" id="female" name="genero" value="Mujer">
+        <label for="female">Mujer</label><br>
+        <input class="controls" type="radio" id="other" name="genero" value="Otros">
+        <label for="other">Otros</label>
+        <br>
+        <p> otros datos, seleccione lo que le llame la atencion:</p>
+        <input class="controls" type="checkbox" name="gatos"> Pintalabios<br>
+        <input class="controls" type="checkbox" name="perros"> Fijadores<br>
+        <input class="controls" type="checkbox" name="delfin"> Correctores<br>
+        <input class="controls" type="submit" value="Submit"><br>
+        <label>fecha de nacimiento</label>
+        <input class="controls" type="date" >
+        </form>
+    </body>
+</html>
+

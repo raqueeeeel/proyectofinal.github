@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+    <title>Maquillaje Raquel</title>
+    <meta charset="UTF-8">
+             <!-- conjunto de caracteres para español-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <!-- diseña responsivo-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+             <!-- compatibilidad con Edge-->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+			 <!-- compatibilidad con Chrome-->
+    <meta name="Author" content="Raquel Aparicio Perez">
+    <meta name="Description" content="Pagina de maquillaje">
+	<meta name="Keywords" content="Pintalabios,Base,Corrector">
+			 <!--informacion general de la pagina-->
+	<link rel="stylesheet" href="./STYLE/principal.css">
+			 <!--fichero de estilos especificos para la pagina principal-->
+    <link rel="icon" href="./IMAGENES/favicon.ico"  type="image/png"/>
+			 <!--imagen del favicon-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+			 <!--fuentes de google para la pagina -->
+    <style>  
+		body {background-color: lightgrey; padding: 10px; font-family: 'Oswald', sans-serif; display: flex; flex-direction: column;}
+        h1 {color:white ;text-align: center; font-size: 40px;;}
+		main { width: 68%; background-color: white; float: left; padding: 14px;}
+		header {width:100% ; background: url(./IMAGENES/FONDO\ HEADER.jpg);} 
+		nav  {background-color: pink; text-align: center;padding: 5px; }    
+		footer { background-color: pink; padding: 15px;}       
+		button { width: 50%;} 
+		button { background-color: blueviolet;padding: 15px; }  
+    </style>
+</head>
+<body>
+	<button onclick="dameNombre()">te pediré el nombre</button>
+        <script>
+            function dameNombre(){
+                    var mynombre= prompt('dame tu nombre');
+                    alert("hola bienvenida "+ mynombre);
+                    document.getElementById('mn').innerHTML=mynombre;
+             }
+        </script>
+	<header>		
+		<br>
+		<br>
+		<h1 class="textoheader"; style="background-color: pink ;"> <strong> MAQUILLAJE RAQUEL </strong> </h1>
+		<br>
+		<br>
+	</header>
+	<nav>		
+		<a href="./PUBLIC/formulario.html"><strong>FORMULARIO DE INSCRIPCION</strong></a>	
+		<br>
+		<a href="./PUBLIC/tienda.html"><strong>TIENDA</strong></a>
+		<br>
+		<a href="./PUBLIC/mapasensible.html"><strong>ALGUNAS DE NUESTRAS TIENDAS</strong></a>
+	</nav>
+	<br>
+	<div>
+	<aside class="estiloaside">
+		<h2 class="tituloaside"> <strong> QUIENES SOMOS: </strong> </h2>
+    	<img src="./IMAGENES/fotoaside.webp" style="width: 80%;"/>
+		<p><strong>Maquillaje Raquel</strong></p>
+		<p>Percassi creó y fundó Maquillaje Raquel en el año 1997. Es una marca española de cosmética profesional que presenta una gama de maquillajes y tratamientos
+			 faciales y corporales vanguardistas. 
+			Productos seguros y eficaces de la más alta calidad, creados para satisfacer las necesidades de belleza de las mujeres de cualquier edad.</p>
+	</aside>
+	<main>
+		<h1 class="titulomain">Nuestros productos cosmeticos:</h1>
+		<br>
+		<img src="./IMAGENES/sprayfijador.jpg" style="width: 20%; float: right;" >
+		<h2><strong> - Spray fijador de rejuvenecimiento de acabado mate NYX Professional Makeup:</strong> </h2>
+		<p>Ayude a que su maquillaje permanezca en su lugar durante todo el día o la noche, con el Spray de rejuvenecimiento de acabado mate NYX Professional Makeup.
+		La fórmula ligera es fácil de aplicar y mantendrá su maquillaje fresco durante el tiempo que lo necesite. El acabado mate y sin brillo le da a su 
+		maquillaje un resplandor durante todo el día mientras que su cara se siente hidratada. La base de maquillaje 
+		 y el contorno no se desvanecen o se mueven y los parches de aceite se convierten en una cosa del pasado.
+		</p>
+		<br>
+		<img src="./IMAGENEs/528569_swatch.jpg" style="width: 20%; float: right;" >
+		<h2><strong> - Paleta de sombras:</strong></h2>
+		<p>Es una paleta imprescindible de tamaño viaje, 
+		compuesta por tonos neutros con tonos cálidos y fríos para brillar día y noche.
+		Incluyendo ocho tonos de destellos mate y glamorosos esenciales,
+		Soft Glam II combina seis tonos ultra populares de la paleta Soft Glam original
+		más dos tonos de la paleta clásica Norvina, en la fórmula ultrapigmentada y fácil de mezclar que tanto amas.
+		Sombras incluidas: 
+		Temple - Beige aterciopelado ultra mate
+		Dreamer - Rosé Champagne Metálico
+		Orange Soda - Melocotón pastel ultra mate
+		Dusty Rose - Polvo ultra mate lila
+		Incienso - Terracota en polvo ultra mate
+		Sensual - Marrón chocolate caliente con acabado metálico satinado híbrido
+		Mulberry - Mora ultra mate
+		Negro - Negro carbón intenso ultra mate
+		</p>
+		<br>
+		<img src="./IMAGENES/71X+VJFJKoL._SL1500_.jpg" style="width: 20%; float: right;" >
+		<h2> - L'Oréal Paris Unlimited Máscara de Pestañas Waterproof Longitud y Curvatura Resistente al Agua:</h2>
+		<p> Cepillo hiperbólico de silicón. Permite distribuir el producto desde la raíz hasta la punta, 
+		logrando que este se fije de manera mas uniforme en las pestañas. 
+		Fija tus pestañas logrando una mirada mas natural y al mismo tiempo las hidrata.
+	 	Producto exclusivo original.
+		</p>
+		<br>
+		<iframe id="inlineFrameExample" title="Inline Frame Example" width="300" height="200" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"></iframe>
+		<iframe width="300" height="200" src="https://www.youtube.com/embed/zhhlcEEHidw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</main>
+	</div>
+	<br>
+	<footer>
+		<h2> - PONTE EN CONTACTO CON NOSOTROS: </h2>
+		<P> Para informacion sobre los precios, pulse alguna de las siguientes imagenes</P>
+		<a href="https://es-es.facebook.com/" > <button class="boton"> <img src="./IMAGENES/Facebook_icon_2013.svg.png" style="width: 10%;"> </button></a>
+		<br>
+		<a href="https://www.instagram.com/" > <button class="boton"> <img src="./IMAGENES/OIP.jpeg" style="width: 12%;"> </button></a> 
+	</footer>
+</body>
+</html>

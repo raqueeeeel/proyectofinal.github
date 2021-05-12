@@ -1,0 +1,56 @@
+<html>
+<head>  
+    <style>
+        body {height: auto;background-image: linear-gradient(lightblue,white,lightpink )  ;}
+    .head {background-color: rgba(8, 150, 231, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;} 
+
+    .contenedorgrid {display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #e1cbe7;
+    padding: 10px;}
+
+    .uno {background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;} 
+
+    .dos {background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;} 
+
+    .pie {background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;} 
+
+    @media only screen and (max-width:600px) {
+        body .head { display:none ; }
+        .pie { display:none ; } }
+
+    @media only screen and (max-width:600px) {
+        body {background-image: linear-gradient(rgb(18, 117, 209),white,lightyellow )  ;}}
+
+    </style>
+</head>
+<body>  
+<div class="head"> Raquel </div>
+<div class="contenedorgrid">
+    <div class="uno"> <img width="60%" src="./tiendademaquillaje.jpg"></div>
+    <div class="uno"> <img width="60%" src="./tiendademaquillaje.jpg"></div>
+    <div class="dos"><img width="60%" src="./tiendademaquillaje.jpg"></div>
+    <div class="uno"><img width="60%" src="./tiendademaquillaje.jpg"></div>
+    <div class="uno"><img width="60%" src="./tiendademaquillaje.jpg"></div>
+    <div class="dos"><img width="60%" src="./tiendademaquillaje.jpg"></div>
+</div>
+<div class="pie"> 
+</div>
+</body>
+</html>
